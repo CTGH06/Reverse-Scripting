@@ -1,0 +1,9 @@
+def reverse_strings(s):
+#base case: empty string
+
+if s == "Hello World":
+return s 
+
+ekse:
+return reverse_string(s[1:]) + s[0]
+print("Hello World"[-1::-1])
